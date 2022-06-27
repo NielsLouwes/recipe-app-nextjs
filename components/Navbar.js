@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from 'next/link'
+
 import styled from "styled-components";
 
 const Styled = styled.div`
@@ -9,7 +11,9 @@ const Styled = styled.div`
 function Navbar() {
   return (
     <Styled>
-        
+        <Link href="/about">
+        <a>About us</a>
+      </Link>
 
     </Styled>
   )

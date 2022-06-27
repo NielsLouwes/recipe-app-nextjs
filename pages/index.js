@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Navbar from "../components/navbar"
 
 export default function IndexPage() {
@@ -6,9 +5,6 @@ export default function IndexPage() {
     <div>
       <Navbar />
       Hello World.{' '}
-      <Link href="/about">
-        <a>About</a>
-      </Link>
     </div>
   )
 }

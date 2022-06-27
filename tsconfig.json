@@ -19,15 +19,17 @@
     "incremental": true,
     "esModuleInterop": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "resolveJsonModule": true
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     "**/*.css",
-    "**.*.js"
-, "pages/index.js"  ],
+    "**.*.js",
+    "pages/index.js"
+  ],
   "exclude": [
     "node_modules",
     "**/*.spec.ts"
