@@ -27,3 +27,6 @@ const server = createServer({
 })
 
 export default server
+
+//API KEY RECIPES
+// api key = 958d593d69114b0f9b1e5dcf7ea7ac4d
