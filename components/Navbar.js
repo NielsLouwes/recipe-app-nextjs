@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 import styled from "styled-components";
 
@@ -11,12 +11,14 @@ const Styled = styled.div`
 function Navbar() {
   return (
     <Styled>
-        <Link href="/about">
+      <Link href="/about">
         <a>About us</a>
       </Link>
-
+      <Link href="/recipes">
+        <a>Top Recipes</a>
+      </Link>
     </Styled>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
