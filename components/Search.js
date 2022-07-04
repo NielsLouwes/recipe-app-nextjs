@@ -24,11 +24,6 @@ const Styled = styled.div`
   border: 1px red solid;
 `;
 
-const Wrapper = styled.div`
- 
-  /* width: 50% */
-`;
-
 const Header = styled.h2`
   justify-content: space-between;
   font-size: 3rem;
@@ -40,4 +35,6 @@ const Input = styled.input`
   justify-content: space-between;
   height: 2vh;
   width: 50%;
+  padding: 20px 0 20px 10px;
+  border-radius: 15px;
 `;
