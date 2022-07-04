@@ -2,7 +2,7 @@ import React from "react";
 
 import styled from "styled-components";
 
-function Search() {
+export default function Search() {
   return (
     <Styled>
       <Header>Find a recipe</Header>
@@ -10,8 +10,6 @@ function Search() {
     </Styled>
   );
 }
-
-export default Search;
 
 // STYLING
 const Styled = styled.div`

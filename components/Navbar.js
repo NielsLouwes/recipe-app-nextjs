@@ -7,8 +7,8 @@ const Styled = styled.div`
   height: 7vh;
   border: 1px solid black;
   display: flex;
-  justify-content: space-between;
-  align-items: space-between;
+  justify-content: space-around;
+  align-items: space-around;
   border: 1px solid red;
   width: 100vw;
 `;
@@ -30,7 +30,7 @@ function Navbar() {
       <CompanyName>Recipe App</CompanyName>
       <Wrapper>
       <Link href="/about">
-        <Text>Textbout us</Text>
+        <Text>About us</Text>
       </Link>
       <Link href="/recipes">
         <Text>Top Recipes</Text>
