@@ -7,7 +7,10 @@ const Styled = styled.div`
   height: 7vh;
   border: 1px solid black;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: space-between;
+  border: 1px solid red;
+  width: 100vw;
 `;
 
 const CompanyName = styled.h1``;
